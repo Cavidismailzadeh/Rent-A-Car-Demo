@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Reservation>
+
+<main>
+    <section id="Kateqoriyalar">
+        <div class="main_heading">
+            <div class="heading_text">
+                <p>Cars</p>
+            </div>
+        </div>
+        <div class="table_items">
+            <table>
+                <tr>
+                    <th>
+                        <div class="head_txt">
+                            <p>Status</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>User Name</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>Brand</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>Start Date</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>End Date</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>Operations</p>
+                        </div>
+                    </th>
+                </tr>
+              
+                @foreach (var reservation in @Model)
+                {
+                    <tr>
+                        <td>
+                            <div class="active">
+                                <p>Active</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="table_text">
+                                <p>@reservation.AppUser.UserName</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="table_text">
+                                <p>@reservation.Car.Brand.Name</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="time">
+                                <p>@reservation.StartDate</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="time">
+                                <p>@reservation.EndDate</p>
+                            </div>
+                        </td>
+                        <td class="table_flex">
+                            <div class="table_icon_succes">
+                                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                                <lord-icon src="https://cdn.lordicon.com/iiixgoqp.json"
+                                           trigger="hover"
+                                           colors="primary:white"
+                                           style="width:20px;height:20px">
+                                </lord-icon>
+                            </div>
+                            <div class="table_icon_error">
+                                <a asp-area="Admin" asp-controller="Reservation" asp-action="Delete" asp-route-id="@reservation.Id">
+                                    <lord-icon src="https://cdn.lordicon.com/kfzfxczd.json"
+                                               trigger="hover"
+                                               colors="primary:white"
+                                               style="width:20px;height:20px">
+                                    </lord-icon>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+
+            </table>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,51 @@
+﻿@model LoginVM
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/css/login.css">
+}
+
+
+<div class="container">
+    <section id="all">
+        <div class="all">
+            <section id="left">
+                <div class="left">
+                    <h2>Login</h2>
+                    <form asp-controller="Account" asp-action="Login" method="post">
+
+                        <label asp-for="Username"></label>
+                        <input asp-for="Username" placeholder="Username">
+
+
+                        <label asp-for="Password">Password</label>
+                        <input asp-for="Password" type="password" placeholder="Password">
+
+
+                        <div class="ForgetPassword">
+                            <a asp-controller="Account" asp-action="ForgetPassword">Forget Password?</a>
+                        </div>
+                        <button type="submit" class="mybutton">Login</button>
+                    </form>
+                    <p>Don't have an account? </p>
+                    <a asp-controller="Account" asp-action="Register"> Register</a>
+                </div>
+            </section>
+
+
+            <section id="right">
+                <div class="right">
+                    <img src="~/assets/image/unsplashmasn.png" alt="">
+                    <h2>welcome!</h2>
+                    <p>Discover cars with us!</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+</div>
+
+
+
+@section Scripts{
+    <script src="~/assets/js/index.js"></script>
+}

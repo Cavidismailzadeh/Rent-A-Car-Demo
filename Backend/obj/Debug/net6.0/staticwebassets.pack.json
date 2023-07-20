@@ -1,0 +1,457 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Backend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Backend.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\areas\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\image\\+.svg",
+      "PackagePath": "staticwebassets\\areas\\admin\\image\\+.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\image\\Filter_alt.svg",
+      "PackagePath": "staticwebassets\\areas\\admin\\image\\Filter_alt.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\image\\Icon_search.svg",
+      "PackagePath": "staticwebassets\\areas\\admin\\image\\Icon_search.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\image\\Statisticsss.png",
+      "PackagePath": "staticwebassets\\areas\\admin\\image\\Statisticsss.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\image\\error.svg",
+      "PackagePath": "staticwebassets\\areas\\admin\\image\\error.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\image\\pagination1.svg",
+      "PackagePath": "staticwebassets\\areas\\admin\\image\\pagination1.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\image\\pagination2.svg",
+      "PackagePath": "staticwebassets\\areas\\admin\\image\\pagination2.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\image\\pencil.svg",
+      "PackagePath": "staticwebassets\\areas\\admin\\image\\pencil.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\areas\\admin\\js\\script.js",
+      "PackagePath": "staticwebassets\\areas\\admin\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\about.css",
+      "PackagePath": "staticwebassets\\assets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\addcar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\addcar.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\confirmaddcar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\confirmaddcar.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\contact.css",
+      "PackagePath": "staticwebassets\\assets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\detail.css",
+      "PackagePath": "staticwebassets\\assets\\css\\detail.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\getAll.css",
+      "PackagePath": "staticwebassets\\assets\\css\\getAll.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\index.css",
+      "PackagePath": "staticwebassets\\assets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\login.css",
+      "PackagePath": "staticwebassets\\assets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\password.css",
+      "PackagePath": "staticwebassets\\assets\\css\\password.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\css\\register.css",
+      "PackagePath": "staticwebassets\\assets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\10024_h_KVK9NlwvB6WdRnGECBgA.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\10024_h_KVK9NlwvB6WdRnGECBgA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\12509_4GYXHe9Ef_FwqzkyAli3Og.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\12509_4GYXHe9Ef_FwqzkyAli3Og.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\2023_bmw_3-series_sedan_330i-xdrive_fq_oem_1_1280.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\2023_bmw_3-series_sedan_330i-xdrive_fq_oem_1_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Logo1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Logo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Logo2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\Logo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Logofoot.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Logofoot.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\MERCEDES-BENZ-Vito-Tourer-6781_28.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\MERCEDES-BENZ-Vito-Tourer-6781_28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\MainImage",
+      "PackagePath": "staticwebassets\\assets\\image"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\OtherImages",
+      "PackagePath": "staticwebassets\\assets\\image"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\SlideCHEVROLETAVEO1-1024x640.png",
+      "PackagePath": "staticwebassets\\assets\\image\\SlideCHEVROLETAVEO1-1024x640.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Vector (2).svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Vector (2).svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Vector (3).svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Vector (3).svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Vector (4).svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Vector (4).svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Vector 1.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Vector 1.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Vector 2.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Vector 2.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\Vector.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Vector.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\arrowleft.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\arrowleft.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\audi.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\audi.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\audiQ3.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\audiQ3.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\audiQ3_.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\audiQ3_.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\avtomat.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\avtomat.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\b1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\b2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\b3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\b4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\b4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\b5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\b5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\bmw-main.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bmw-main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\bmw-other1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bmw-other1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\bmw-other2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bmw-other2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\carMobile.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\carMobile.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\detail\\Vector (2).svg",
+      "PackagePath": "staticwebassets\\assets\\image\\detail\\Vector (2).svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\detail\\yaxtadetail.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\detail\\yaxtadetail.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\detail\\yaxtadetail1.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\detail\\yaxtadetail1.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\detail\\yaxtadetail2.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\detail\\yaxtadetail2.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\detail\\yaxtadetail3.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\detail\\yaxtadetail3.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\detail\\yaxtadetail4.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\detail\\yaxtadetail4.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\dht.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\dht.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\dizel.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\dizel.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\fb.png",
+      "PackagePath": "staticwebassets\\assets\\image\\fb.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\freeannouncementcar.png",
+      "PackagePath": "staticwebassets\\assets\\image\\freeannouncementcar.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\gemi.png",
+      "PackagePath": "staticwebassets\\assets\\image\\gemi.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\google.png",
+      "PackagePath": "staticwebassets\\assets\\image\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\headerbluecar.png",
+      "PackagePath": "staticwebassets\\assets\\image\\headerbluecar.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\hyde-park-house-robeson-architects_2.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\hyde-park-house-robeson-architects_2.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\jeep.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\jeep.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\karavan.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\karavan.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\khatai.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\khatai.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\kia1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\kia1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\kia2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\kia2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\kia3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\kia3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\kia4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\kia4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\kia5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\kia5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\mb-vito-tourer-2020-side-front.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\mb-vito-tourer-2020-side-front.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\mybach.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\mybach.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\nissanBm.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\nissanBm.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\restoran_kafe.png",
+      "PackagePath": "staticwebassets\\assets\\image\\restoran_kafe.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\retroBn.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\retroBn.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\retroCp.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\retroCp.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\s1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\s2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\s2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\s3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\s3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\s4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\s4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\s5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\s5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\search.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\image\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\types-of-homes-hero.png",
+      "PackagePath": "staticwebassets\\assets\\image\\types-of-homes-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\unsplash_QckxruozjRg.png",
+      "PackagePath": "staticwebassets\\assets\\image\\unsplash_QckxruozjRg.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\unsplashmasn.png",
+      "PackagePath": "staticwebassets\\assets\\image\\unsplashmasn.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\user.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\v1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\v2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\v3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\v3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\v4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\v4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\v5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\v5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\vita4T.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\vita4T.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\vita500.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\vita500.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\vitaBk.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\vitaBk.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\vitaCs.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\vitaCs.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\vito1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\vito1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\yaxta.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\yaxta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\yaxta1.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\yaxta1.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\yaxta2.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\yaxta2.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\yaxta3.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\yaxta3.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\image\\yaxta4.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\yaxta4.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\js\\detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\detail.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\js\\getAll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\getAll.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\js\\index.js",
+      "PackagePath": "staticwebassets\\assets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\New folder (3)\\Finally-Project-BackEnd\\Backend\\wwwroot\\assets\\templates\\verify.html",
+      "PackagePath": "staticwebassets\\assets\\templates\\verify.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Backend.props",
+      "PackagePath": "build\\Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Backend.props",
+      "PackagePath": "buildMultiTargeting\\Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Backend.props",
+      "PackagePath": "buildTransitive\\Backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,116 @@
+﻿@model List<GetUserVM>
+
+<main>
+    <section id="Kateqoriyalar">
+        <div class="main_heading">
+            <div class="heading_text">
+                <p>Users</p>
+            </div>
+
+        </div>
+        <div class="table_items">
+            <table>
+                <tr>
+                    <th>
+                        <div class="head_txt">
+                            <p>Fullname</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>Email</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>Username</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>Role</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>Operations</p>
+                        </div>
+                    </th>
+                </tr>
+                @foreach (var user in @Model)
+                {
+                    <tr>
+
+                        <td>
+                            <div class="table_text">
+                                <p>@user.User.FullName</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="table_text">
+                                <p>@user.User.Email</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="table_text">
+                                <p>@user.User.UserName</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="table_text">
+                                @foreach (var userRole in user.UserRole)
+                                {
+                                    <p>@userRole</p>
+                                }
+                            </div>
+                        </td>
+                        <td class="table_flex">
+                            <div class="table_icon_succes">
+                                @foreach (var userRole in user.UserRole)
+                                {
+                                    @if (userRole == "Member")
+                                    {
+                                        <a asp-area="Admin" asp-controller="User" asp-action="ChangeRole" asp-route-roleName="Admin" asp-route-userId="@user.User.Id">
+                                            <p>
+                                                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                                                <lord-icon src="https://cdn.lordicon.com/akuwjdzh.json"
+                                                           trigger="hover"
+                                                           colors="primary:white"
+                                                           style="width:20px;height:20px;padding-top:3px">
+                                                </lord-icon>
+                                            </p>
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Admin" asp-controller="User" asp-action="ChangeRole" asp-route-roleName="Member" asp-route-userId="@user.User.Id">
+                                            <p>
+                                                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                                                <lord-icon src="https://cdn.lordicon.com/akuwjdzh.json"
+                                                           trigger="hover"
+                                                           colors="primary:white"
+                                                           style="width:20px;height:20px;padding-top:3px">
+                                                </lord-icon>
+                                            </p>
+                                        </a>
+                                    }
+                                }
+
+                            </div>
+                            <div class="table_icon_error">
+                                <a asp-area="admin" asp-controller="User" asp-action="DeleteUser" asp-route-id="@user.User.Id">
+                                    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                                    <lord-icon src="https://cdn.lordicon.com/kfzfxczd.json"
+                                               trigger="hover"
+                                               colors="primary:white"
+                                               style="width:20px;height:20px;padding-top:3px">
+                                    </lord-icon>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </section>
+</main>

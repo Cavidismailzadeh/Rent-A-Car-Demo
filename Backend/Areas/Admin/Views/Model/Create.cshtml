@@ -1,0 +1,33 @@
+﻿@{
+    var brands = (IEnumerable<Brand>)ViewBag.Brands;
+}
+
+@model Model
+
+<main>
+    <section id="Kateqoriyalar">
+        <div class="main_heading">
+            <div class="heading_text">
+                <p>Create</p>
+            </div>
+        </div>
+        <div>
+            <form method="post" asp-area="Admin" asp-controller="Model" asp-action="Create">
+                <div class="form-group">
+                    <label for="formGroupExampleInput" style="font-size: 25px;"> Model Name</label>
+                    <input asp-for="@Model.Name" class="form-control" id="formGroupExampleInput" placeholder="Example" style="display: flex;width: 400px;height: 45px;margin-top: 10px;margin-bottom: 20px;outline: none;border: 1px solid #e6e6e6;border-radius: 6px;padding-left: 10px;">
+                </div>
+                <div class="left_side_form">
+                    <label for="">Brand<sup>*</sup></label> <br>
+                    <select asp-for="@Model.BrandId">
+                        @foreach (var brand in brands)
+                        {
+                            <option value="@brand.Id">@brand.Name</option>
+                        }
+                    </select>
+                </div>
+                <button type="submit" style="border: none;outline: none;width: 60px;color: white;cursor: pointer;height: 30px;background: #0003c0;border-radius: 5px;margin-top:20px">Create</button>
+            </form>
+        </div>
+    </section>
+</main>

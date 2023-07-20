@@ -1,0 +1,22 @@
+﻿@model Brand
+
+<main>
+    <section id="Kateqoriyalar">
+        <div class="main_heading">
+            <div class="heading_text">
+                <p>Edit</p>
+            </div>
+        </div>
+        <div>
+            <form method="post" asp-area="Admin" asp-controller="Brand" asp-action="Edit">
+                <div class="form-group">
+                    <label for="formGroupExampleInput" style="font-size: 25px;">Brand Name</label>
+                    <input asp-for="@Model.Name" class="form-control" id="formGroupExampleInput" placeholder="Example" style="display: flex;width: 400px;height: 45px;margin-top: 10px;margin-bottom: 20px;outline: none;border: 1px solid #e6e6e6;border-radius: 6px;padding-left: 10px;">
+                    <input hidden asp-for="@Model.Id" />
+
+                </div>
+                <button type="submit" style="border: none;outline: none;width: 60px;color: white;cursor: pointer;height: 30px;background: #0003c0;border-radius: 5px;margin-top:20px">Edit</button>
+            </form>
+        </div>
+    </section>
+</main>

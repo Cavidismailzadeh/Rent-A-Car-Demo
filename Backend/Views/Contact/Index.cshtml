@@ -1,0 +1,62 @@
+﻿@model ContactVM
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/css/contact.css">
+}
+
+<section id="contact_us_pagesss">
+    <div class="container_contact">
+        <p class="contact_head">Contact</p>
+        <div class="contact_items_all">
+            <div class="leftside_contact">
+                <p class="headingcontact">Contact us</p>
+                <form asp-controller="Contact" asp-action="Index" method="POST" class="form_elaqeeee">
+
+                    <label for="">Fullname *</label> <br>
+                    <input asp-for="@Model.Fullname" placeholder="Fullname "> <br>
+
+                    <label for="">Phone Number *</label> <br>
+                    <input asp-for="@Model.PhoneNumber" type="number" placeholder="+994 12 345 67 89 "> <br>
+
+                    <label for="">Message *</label> <br>
+                    <textarea asp-for="@Model.Message" cols="30" rows="10" placeholder="WRITE TO US"></textarea> <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="rightside_contact">
+                <p class="headingcontact2">Contact information</p>
+                <div class="adres_items">
+                    <p>
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/zzcjjxew.json"
+                                   trigger="hover"
+                                   colors="primary:#121331,secondary:#08a88a"
+                                   style="width:30px;height:30px;    padding-top: 9px;">
+                        </lord-icon>
+                        Address : Nizami St. Aff Business Center
+                    </p>
+                    <p>
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/fwafvpnq.json"
+                                   trigger="hover"
+                                   colors="primary:#121331,secondary:#08a88a"
+                                   style="width:30px;height:30px;    padding-top: 9px;">
+                        </lord-icon> Phone : +994 50 821 81 51
+                    </p>
+                    <p>
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/tkgyrmwc.json"
+                                   trigger="hover"
+                                   colors="primary:#121331,secondary:#08a88a"
+                                   style="width:30px;height:30px;    padding-top: 9px;">
+                        </lord-icon>  E-Mail : javidai@code.edu.az
+                    </p>
+
+                    <div class="contact_xerite">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.4285350095242!2d49.85134057656012!3d40.37719397144613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d077c61fef3%3A0xfa4594c97092ca01!2sAF%20Business%20House!5e0!3m2!1sen!2saz!4v1688904113697!5m2!1sen!2saz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

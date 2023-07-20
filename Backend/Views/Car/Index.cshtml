@@ -1,0 +1,81 @@
+﻿@model CarVM
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/css/getAll.css">
+
+}
+
+<div class="pop_up" id="pop_up">
+    <div class="pop_up_container">
+        <div class="pop_up_body" id="pop_up_body">
+            <form action="#">
+                <div class="labels_flex">
+                    <div class="label1_flex">
+                        <label for="tel">Start Date</label> <br>
+                        <input type="date" required>
+                    </div>
+                    <div class="label1_flex">
+                        <label for="email">End Date</label> <br>
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="btns_pop">
+                    <div class="btn1_pop">
+                        <button id="back">Back</button>
+                    </div>
+                    <div class="btn2_pop">
+                        <button type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<section id="rentacar_middle" style="padding-top: 30px;">
+
+    <div class="toy_mashini" id="Toy maşını" style="padding-top: 50px;">
+        <div class="mashin_text">
+            <h1 style="margin-left:43%; padding-top:0px; padding-bottom:15px;">Cars</h1>
+        </div>
+        <div class="container">
+            <div class="mashin_img">
+                @foreach (var weddingCar in Model.Cars)
+                {
+                    <div class="jeep mashin_melumat">
+                        <div class="img_">
+                            <a asp-controller="Car" asp-action="Detail" asp-route-id="@weddingCar.Id">
+                                <img src="~/assets/image/@weddingCar.CarImages.FirstOrDefault(m => m.IsMain).Name" alt="">
+                            </a>
+                        </div>
+                        <p>@weddingCar.Brand.Name @weddingCar.Brand.Models.FirstOrDefault().Name</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> @weddingCar.Price.ToString("N2")<span>/Daily</span></p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            @if (weddingCar.GearBox.Name == "Automatic")
+                            {
+                                <p>A</p>
+                                <p>Automatic</p>
+                            }
+                            else if (weddingCar.GearBox.Name == "Mechanic")
+                            {
+                                <p>M</p>
+                                <p>Mechanic</p>
+                            }
+                            <img src="~/assets/image/dizel.svg" alt="">
+                            <p>@weddingCar.FuelType.Name</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Reservation</button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+     
+    </div>
+</section>
+
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="~/assets/js/getAll.js"></script>
+}

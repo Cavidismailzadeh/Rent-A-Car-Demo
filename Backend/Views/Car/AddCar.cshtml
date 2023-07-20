@@ -1,0 +1,151 @@
+﻿@{
+    var brands = (List<Brand>) ViewBag.Brands;
+    var models = (List<Model>) ViewBag.Models;
+    var fuelTypes = (List<FuelType>) ViewBag.FuelTypes;
+    var cities = (List<City>) ViewBag.Cities;
+    var banTypes = (List<BanType>) ViewBag.BanTypes;
+    var gearBoxes = (List<GearBox>) ViewBag.GearBoxes;
+    var categories = (List<Category>)ViewBag.Categories;
+    var transmissions = (List<Transmission>)ViewBag.Transmissions;
+}
+
+@model AddCarVM
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/css/addcar.css">
+}
+
+<section id="First_form">
+    <div class="first_form_container">
+        <form enctype="multipart/form-data" method="POST" asp-controller="Car" asp-action="AddCar">
+            <div class="f_f_header_text">
+                <h1>
+                    New Announcement
+                </h1>
+            </div>
+            <div class="f_f_form_items">
+                <div class="left_side_form">
+                    <label for="">Brand<sup>*</sup></label> <br>
+                    <select asp-for="@Model.Car.BrandId">
+                        @foreach (var brand in brands)
+                        {
+                            <option value="@brand.Id">@brand.Name</option>
+                        }
+                    </select>
+                </div>
+                <div class="left_side_form">
+                    <label for="">Model <sup>*</sup></label> <br>
+                    <select asp-for="@Model.Car.ModelId">
+                        @foreach (var modelType in models)
+                        {
+                            <option value="@modelType.Id">@modelType.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="f_f_form_items">
+                <div class="left_side_form">
+                    <label for="">Fuel Tank <sup>*</sup></label> <br>
+                    <select asp-for="@Model.Car.FuelTypeId">
+                        @foreach (var fuelType in fuelTypes)
+                        {
+                            <option value="@fuelType.Id">@fuelType.Name</option>
+                        }
+                    </select>
+                </div>
+                <div class="left_side_form">
+                    <label for="">City <sup>*</sup></label> <br>
+                    <select asp-for="@Model.Car.CityId">
+                        @foreach (var city in cities)
+                        {
+                            <option value="@city.Id">@city.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="f_f_form_items">
+                <div class="left_side_form">
+                    <label for="">Ban Type <sup>*</sup></label> <br>
+                    <select asp-for="@Model.Car.BanTypeId">
+                        @foreach (var banType in banTypes)
+                        {
+                            <option value="@banType.Id">@banType.Name</option>
+                        }
+                    </select>
+                </div>
+                <div class="left_side_form">
+                    <label for="">Gear box <sup>*</sup></label> <br>
+                    <select asp-for="@Model.Car.GearBoxId">
+                        @foreach (var gearBox in gearBoxes)
+                        {
+                           <option value="@gearBox.Id">@gearBox.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="f_f_form_items">
+                <div class="left_side_form">
+                    <label for="">Category <sup>*</sup></label> <br>
+                    <select asp-for="@Model.Car.CategoryId">
+                        @foreach (var category in categories)
+                        {
+                            <option value="@category.Id">@category.Name</option>
+                        }
+                    </select>
+                </div>
+                <div class="left_side_form">
+                    <label for="">Transmission <sup>*</sup></label> <br>
+                    <select asp-for="@Model.Car.TransmissionId">
+                        @foreach (var transmission in transmissions)
+                        {
+                            <option value="@transmission.Id">@transmission.Name</option>
+                        }
+                    </select>
+                    
+                </div>
+                
+            </div>
+            <div class="f_f_form_items">
+                <div class="left_side_form">
+                    <label asp-for="@Model.Car.Mileage">Mileage <sup>*</sup></label> <br>
+                    <input asp-for="@Model.Car.Mileage" placeholder="Adding mileage">
+                </div>
+                <div class="left_side_form">
+                     <label asp-for="@Model.Car.Year">Year <sup>*</sup></label> <br>
+                    <input asp-for="@Model.Car.Year" placeholder="Adding Year">
+                </div>
+            </div>
+            <div class="f_f_form_items">
+                <div class="left_side_form">
+                    <label asp-for="@Model.Car.Price">Price <sup>*</sup></label>
+                    <br>
+                    <input asp-for="@Model.Car.Price" placeholder="Adding Price">
+                </div>
+            </div>
+            <div class="f_f_boxes_items">
+                <div class="boxes_heading">
+                    <p>Pictures</p>
+                </div>
+                <div class="chechboxes_item">
+                    <div class="file_con">
+                        <div class="box_file">
+                            <span>Upload a main picture of the cars</span>
+                            <button> Choose <input asp-for="@Model.MainImage"  class="hide" /></button>
+                        </div>
+
+                    </div>
+           
+                </div>
+            </div>
+            <div class="f_f_btn">
+                    <button type="submit" style="color:white">
+                        Add
+                    </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+@section Scripts{
+    <script src="~/assets/js/index.js"></script>
+}

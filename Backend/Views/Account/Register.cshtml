@@ -1,0 +1,56 @@
+﻿@model RegisterVM
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/css/register.css">
+}
+
+
+<div class="container">
+    <section id="all">
+        <div class="all">
+            <section id="left">
+                <div class="left">
+                    <h2>Register</h2>
+
+                    <form asp-controller="Account" asp-action="Register" method="post">
+                        <label asp-for="Firstname">Name</label>
+                        <input asp-for="Firstname" placeholder="Name">
+
+                        <label asp-for="Lastname">LastName</label>
+                        <input asp-for="Lastname" placeholder="LastName">
+
+                        <label asp-for="Email">Email</label>
+                        <input type="email" asp-for="Email" placeholder="Email">
+
+                        <label asp-for="Username">UserName</label>
+                        <input asp-for="Username" placeholder="UserName">
+
+                        <label asp-for="Password">Password</label>
+                        <input asp-for="Password" type="password" placeholder="Password">
+
+                        <label asp-for="ConfirmPassword">Password</label>
+                        <input asp-for="ConfirmPassword" type="password" placeholder="Confirm Password">
+
+                        <button type="submit">Register</button>
+                    </form>
+
+                </div>
+            </section>
+
+
+            <section id="right">
+                <div class="right">
+                    <img src="~/assets/image/unsplashmasn.png" alt="">
+                    <h2>welcome!</h2>
+                    <p>Discover cars with us!</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+</div>
+
+
+@section Scripts{
+    <script src="~/assets/js/index.js"></script>
+}

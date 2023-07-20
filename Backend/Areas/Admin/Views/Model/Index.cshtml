@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Model>
+
+
+
+<main>
+    <section id="Kateqoriyalar">
+        <div class="main_heading">
+            <div class="heading_text">
+                <p>Model Types</p>
+            </div>
+            <div class="heading_icon">
+                <a asp-area="Admin" asp-controller="Model" asp-action="Create" style="background-color: darkblue;width: 50px;height: 40px;padding-left: 5px;padding-right: 10px;color: white;padding-top: 11px;border-radius: 25%;margin-left: -20px;">Create</a>
+            </div>
+        </div>
+        <div class="table_items">
+            <table>
+                <tr>
+                    <th>
+                        <div class="head_txt">
+                            <p>Model Name</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="head_txt">
+                            <p>Operations</p>
+                        </div>
+                    </th>
+                </tr>
+                @foreach (var mod in @Model)
+                {
+                    <tr>
+                        <td>
+                            <div class="table_text">
+                                <p>@mod.Name</p>
+                            </div>
+                        </td>
+                        <td class="table_flex">
+                            <div class="table_icon_succes">
+                                <a asp-area="Admin" asp-controller="Model" asp-action="Edit" asp-route-id="@mod.Id">
+                                    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                                    <lord-icon src="https://cdn.lordicon.com/iiixgoqp.json"
+                                               trigger="hover"
+                                               colors="primary:white"
+                                               style="width:20px;height:20px;padding-top:3px">
+                                    </lord-icon>
+                                </a>
+                            </div>
+                            <div class="table_icon_error">
+                                <a asp-area="admin" asp-controller="Model" asp-action="Delete" asp-route-id="@mod.Id">
+                                    <lord-icon src="https://cdn.lordicon.com/kfzfxczd.json"
+                                               trigger="hover"
+                                               colors="primary:white"
+                                               style="width:20px;height:20px;padding-top:3px">
+                                    </lord-icon>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        </div>
+    </section>
+</main>

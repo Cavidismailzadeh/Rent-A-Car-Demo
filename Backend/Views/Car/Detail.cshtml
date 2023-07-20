@@ -1,0 +1,121 @@
+﻿@model Car
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/css/detail.css">
+    <link rel="stylesheet" href="~/assets/css/getAll.css">
+}
+
+<div class="pop_up" id="pop_up">
+    <div class="pop_up_container">
+        <div class="pop_up_body" id="pop_up_body">
+            <form asp-controller="Car" asp-action="Reservation" asp-route-id="@Model.Id">
+                <div class="labels_flex">
+                    <div class="label1_flex">
+                        <label for="tel">Start Date</label> <br>
+                        <input name="startDate" type="date" required>
+                    </div>
+                    <div class="label1_flex">
+                        <label for="email">End Date</label> <br>
+                        <input name="endDate" type="date" required>
+                    </div>
+                </div>
+                <div class="btns_pop">
+                    <div class="btn1_pop">
+                        <button id="back">Back</button>
+                    </div>
+                    <div class="btn2_pop">
+                        <button type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<section id="shekil" class="shekiller_yaxtacun">
+    <div class="product-div">
+        <div class="product-div-left">
+            <div class="img-container">
+                <img src="~/assets/image/@Model.CarImages.FirstOrDefault(m => m.IsMain).Name" alt="watch">
+            </div>
+            <div class="hover-container">
+ @*               @foreach (var item in Model.CarImages.FirstOrDefault(m => !m.IsMain).Name)
+                {
+                    <img src="~/assets/image/@item" alt="watch">
+                }*@
+             
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="swiper mySwiper">
+
+        <div class="swiper-wrapper mobile">
+            <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="~/assets/image/@Model.CarImages.FirstOrDefault(m=>m.IsMain).Name" alt="watch">
+                    </div>     
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+
+<section id="mashin_qiymet" class="mashin_qiymet">
+    <div class="border_mashin_melumat">
+        <div class="qiymet">
+            <p><i class="fa-solid fa-manat-sign"></i> @Model.Price <br> /Daily</p>
+        </div>
+        <div class="ad_ve_marka">
+            <p>Name : @Model.Brand.Name</p>
+        </div>
+        <div class="baxish_yenilendi_elaninnomu">
+        </div>
+    </div>
+
+
+</section>
+
+<section id="mashin_melumat">
+    <div class="mahin_haqqinda_melumat">
+        <div class="elaqe_">
+            <p>Contact</p>
+            <a href="#">
+                <img src="~/assets/img/cardetails_img/Vector (2).svg" alt=""> @Model.AppUser.FullName
+            </a>
+            <div></div>
+            <div class="bron_btn">
+                <button type="submit" class="btn_bron" id="open_pop_up">Reservation</button>
+            </div>
+        </div>
+
+        <div class="mashinin_melumati">
+            <div class="melumatlar_txt">
+                <p>Information</p>
+            </div>
+            <div class="sheher melumat">
+                <p>City</p>
+                <p>@Model.City.Name</p>
+            </div>
+        </div>
+
+        <div class="avtomobil_techizati">
+            <p>Car supplies:</p>
+            <ul>
+                <li>Millage: @Model.Mileage KM </li>
+                <li>Ban Type: @Model.BanType.Name </li>
+                <li>Fuel: @Model.FuelType.Name </li>
+                <li>Gearbox: @Model.GearBox.Name </li>
+                <li>Year: @Model.Year</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="~/assets/js/getAll.js"></script>
+}

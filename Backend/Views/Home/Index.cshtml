@@ -1,0 +1,370 @@
+﻿@model HomeVM
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/css/index.css">
+}
+
+<main>
+    <section id="header_swiper" class="header_swiper">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="~/assets/image/headerbluecar.png" alt="car" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="~/assets/image/headerbluecar.png" alt="car" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="~/assets/image/headerbluecar.png" alt="car" />
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper mobile">
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="~/assets/image/carMobile.svg" alt="car" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="~/assets/image/carMobile.svg" alt="car" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="~/assets/image/carMobile.svg" alt="car" />
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="heading_form">
+            <form asp-controller="Home" asp-action="MainSearch" class="hm-searchbox">
+                <div class="right_side">               
+                  <input class="input-search"
+                         type="text"
+                           name="searchText"
+                         placeholder="Search"
+                         onblur="if(this.value==''){this.value='Search...'}"
+                         onfocus="if(this.value =='Search...'){this.value=''}"
+                         autocomplete="off"
+                  />
+                  <button class="btn_search"
+                          type="submit">
+                        <div class="search_icon"></div>
+                 </button>
+            </form>
+       </div>
+               @* <div class="accordionsection">
+                    <p class="hed">City</p>
+                    <button class="accordion activatosaccor">
+                        Lənkəran
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                             aria-hidden="true" class="arrowup">
+                            <path fill-rule="evenodd"
+                                  d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z"
+                                  clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <div class="panel">
+                        <p>Lənkəran</p>
+                        <p>Lənkəran</p>
+                        <p>Lənkəran</p>
+                    </div>
+                </div>
+                <div class="accordionsection">
+                    <p class="hed">Model</p>
+                    <button class="accordion">
+                        BMW
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                             aria-hidden="true" class="arrowup">
+                            <path fill-rule="evenodd"
+                                  d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z"
+                                  clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <div class="panel">
+                        <p>BMW</p>
+                        <p>BMW</p>
+                        <p>BMW</p>
+                    </div>
+                </div>
+                <div class="accordionsection">
+                    <p class="hed">Rent a car</p>
+                    <button class="accordion">
+                        Caravan
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                             aria-hidden="true" class="arrowup">
+                            <path fill-rule="evenodd"
+                                  d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z"
+                                  clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <div class="panel">
+                        <p>Caravan</p>
+                        <p>Caravan</p>
+                        <p>Caravan</p>
+                    </div>
+                </div>
+                <div class="accordionsection">
+                    <p class="hed">Type </p>
+                    <button class="accordion">
+                        Wedding Cars
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                             aria-hidden="true" class="arrowup">
+                            <path fill-rule="evenodd"
+                                  d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z"
+                                  clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <div class="panel">
+                        <p>Sedan</p>
+                        <p>Mini Van</p>
+
+                    </div>
+                </div>
+                <div class="search_items">
+                    <button type="submit" class="btn_search">Search</button>
+                    <div class="search_icon"></div>
+                </div>*@
+          
+  
+    </section>
+
+    <section id="home_it_work">
+        <!-- Home It Work -->
+
+        <div class="home_it_work_txt">
+            <p>Home It Work</p>
+            <p>Rent in 3 steps</p>
+        </div>
+
+        <div class="search_sec_kirayele">
+            <div class="mekan_search mix">
+                <div class="mekan_search_img mix_">
+                    <img src="~/assets/image/Vector (2).svg" alt="">
+                </div>
+                <div class="mekan_searcht_txt mix__">
+                    <p>Find a place</p>
+                    <p>If you are somewhere, find the place that is closest to you !</p>
+                </div>
+            </div>
+            <div class="arrow_top">
+                <img src="~/assets/image/Vector 1.svg" alt="">
+            </div>
+
+            <div class="zaman_sec mix">
+                <div class="zaman_sec_img mix_">
+                    <img src="~/assets/image/Vector (3).svg" alt="">
+                </div>
+                <div class="zaman_sec_txt mix__">
+                    <p>Choose a time</p>
+                    <p>Choose the time that suits you !</p>
+                </div>
+            </div>
+            <div class="arrow_bottom">
+                <img src="~/assets/image/Vector 2.svg" alt="">
+            </div>
+
+
+            <div class="mashin_kirayele mix">
+                <div class="mashini_kirayele_img mix_">
+                    <img src="~/assets/image/Vector (4).svg" alt="">
+                </div>
+                <div class="mashini_kirayele_txt mix__">
+                    <p>Rent A Car</p>
+                    <p>You can use the transport you have rented !</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="rentacar_middle">
+        <!-- Rent A Car -->
+        <div class="r_entAca_r">
+            <div class="rent_text">
+                <h1>Rent A Car</h1>
+
+            </div>
+
+            <div class="rent_img">
+                <div class="khatai img_rent">
+                    <img src="~/assets/image/khatai.svg" alt="">
+                    <p>Khatai</p>
+                    <p>Rent A Car</p>
+                </div>
+
+                <div class="DHT img_rent">
+                    <img src="~/assets/image/dht.svg" alt="">
+                    <p>Cars 4 Rent</p>
+                    <p>Rent A Car</p>
+                </div>
+
+                <div class="Best img_rent">
+                    <p>Best <br> Car</p>
+                    <p>Best</p>
+                    <p>Rent A Car</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="wedding_Cars" id="Wedding_car">
+            <div class="mashin_text">
+                <h1>@Model.Cars.FirstOrDefault(m => m.Category.Name == "Wedding Car").Category.Name</h1>
+                <a asp-controller="Car" asp-action="GetAll" asp-route-id="@Model.Cars.FirstOrDefault(m => m.Category.Name == "Wedding Car").CategoryId">Get All</a>
+
+          
+            </div>
+
+            <div class="mashin_img">
+                @foreach (var weddingCar in Model.Cars)
+                {
+                    if (weddingCar.Category.Name == "Wedding Car")
+                    {
+                        <div class="jeep mashin_melumat">
+                            <div class="img_">
+                                <a asp-controller="Car" asp-action="Detail" asp-route-id="@weddingCar.Id">
+                                    <img src="~/assets/image/@weddingCar.CarImages.FirstOrDefault(m => m.IsMain).Name" alt="">
+                                </a>
+                            </div>
+                            <p>@weddingCar.Brand.Name @weddingCar.Brand.Models.FirstOrDefault().Name</p>
+                            <p><i class="fa-solid fa-manat-sign"></i> @weddingCar.Price.ToString("N2")<span>/Daily</span></p>
+                            <div class="border"></div>
+                            <div class="icone_text">
+                                @if (weddingCar.GearBox.Name == "Automatic")
+                                {
+                                    <p>A</p>
+                                    <p>Automatic</p>
+                                }
+                                else if (weddingCar.GearBox.Name == "Mechanic")
+                                {
+                                    <p>M</p>
+                                    <p>Mechanic</p>
+                                }
+                                <img src="~/assets/image/dizel.svg" alt="">
+                                <p>@weddingCar.FuelType.Name</p>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <div class="vita_mashini" id="Mini Van">
+            <div class="mashin_text">
+                <h1>@Model.Cars.FirstOrDefault(m => m.Category.Name == "Mini Van").Category.Name</h1>
+                <a asp-controller="Car" asp-action="GetAll" asp-route-id="@Model.Cars.FirstOrDefault(m => m.Category.Name == "Mini Van").CategoryId">Get All</a>
+        
+            </div>
+
+            <div class="mashin_img">
+                @foreach (var miniVan in Model.Cars)
+                {
+                    if (miniVan.Category.Name == "Mini Van")
+                    {
+                        <div class="vita_500 mashin_melumat">
+                            <div class="img_">
+                                <a asp-controller="Car" asp-action="Detail" asp-route-id="@miniVan.Id">
+                                    <img src="~/assets/image/@miniVan.CarImages.FirstOrDefault(m => m.IsMain).Name" alt="">
+                                </a>
+                            </div>
+                            <p>@miniVan.Brand.Name @miniVan.Brand.Models.FirstOrDefault().Name</p>
+                            <p><i class="fa-solid fa-manat-sign"></i> @miniVan.Price.ToString("N2")<span>/Monthly</span> </p>
+                            <div class="border"></div>
+                            <div class="icone_text">
+                                @if (miniVan.GearBox.Name == "Automatic")
+                                {
+                                    <p>A</p>
+                                    <p>Automatic</p>
+                                }
+                                else if (miniVan.GearBox.Name == "Mechanic")
+                                {
+                                    <p>M</p>
+                                    <p>Mechanic</p>
+                                }
+                                <img src="~/assets/image/dizel.svg" alt="">
+                                <p>@miniVan.FuelType.Name</p>
+                            </div>
+
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <div class="wedding_Cars" id="Wedding_car">
+            <div class="mashin_text">
+                <h1>@Model.Cars.FirstOrDefault(m => m.Category.Name == "Sedan").Category.Name</h1>
+                <a asp-controller="Car" asp-action="GetAll" asp-route-id="@Model.Cars.FirstOrDefault(m => m.Category.Name == "Sedan").CategoryId">Get All</a>
+            </div>
+        
+
+            <div class="mashin_img">
+                @foreach (var sedan in Model.Cars)
+                {
+                    if (sedan.Category.Name == "Sedan")
+                    {
+                        <div class="audi mashin_melumat">
+                            <div class="img_">
+                                <a asp-controller="Car" asp-action="Detail" asp-route-id="@sedan.Id">
+                                    <img src="~/assets/image/@sedan.CarImages.FirstOrDefault(m => m.IsMain).Name" alt="">
+                                </a>
+                            </div>
+                            <p>@sedan.Brand.Name @sedan.Brand.Models.FirstOrDefault().Name</p>
+                            <p><i class="fa-solid fa-manat-sign"></i> @sedan.Price.ToString("N2")<span>/Monthly</span> </p>
+                            <div class="border"></div>
+                            <div class="icone_text">
+                                @if (sedan.GearBox.Name == "Automatic")
+                                {
+                                    <p>A</p>
+                                    <p>Automatic</p>
+                                }
+                                else if (sedan.GearBox.Name == "Mechanic")
+                                {
+                                    <p>M</p>
+                                    <p>Mechanic</p>
+                                }
+                                <img src="~/assets/image/dizel.svg" alt="">
+                                <p>@sedan.FuelType.Name</p>
+                            </div>
+
+                        </div>
+
+                    }
+                }
+            </div>
+        </div>
+    </section>
+
+
+    <section id="free_announcement">
+        <div class="free_announcement_items">
+            <div class="announcement_image">
+                <img src="~/assets/image/freeannouncementcar.png" alt="car">
+            </div>
+            <div class="announcement_text">
+                <p>Post a free ad and you<br> find the right Rent!</p>
+
+                <div class="announcement_btn">
+                    <a asp-controller="Car" asp-action="AddCar">
+                        <button type="submit" class="btn_search">Add Car</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+@section Scripts{
+    <script src="~/assets/js/index.js"></script>
+}

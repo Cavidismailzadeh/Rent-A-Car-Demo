@@ -1,0 +1,115 @@
+﻿@model CarVM
+
+@section Links{
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="~/assets/css/getAll.css">
+
+}
+
+<div class="pop_up" id="pop_up">
+    <div class="pop_up_container">
+        <div class="pop_up_body" id="pop_up_body">
+            <form action="#">
+                <div class="labels_flex">
+                    <div class="label1_flex">
+                        <label for="tel">Start Date</label> <br>
+                        <input type="date" placeholder="+994 " required>
+                    </div>
+                    <div class="label1_flex">
+                        <label for="email">End Date</label> <br>
+                        <input type="date" placeholder="javid@gmail.com" required>
+                    </div>
+                </div>
+                <div class="btns_pop">
+                    <div class="btn1_pop">
+                        <button id="back">Back</button>
+                    </div>
+                    <div class="btn2_pop">
+                        <button type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<section id="rentacar_middle" style="padding-top: 30px;">
+    <div class="toy_mashini" id="Toy maşını" style="padding-top: 50px;">
+        <div class="mashin_text">
+            <h1>@Model.Cars.FirstOrDefault().Category.Name</h1>
+
+        </div>
+        <div class="mashin_img">
+           @* <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">*@
+                        @foreach (var car in Model.Cars)
+                        {
+                            
+                            <div class="jeep mashin_melumat">
+                                <div class="img_">
+                                    <a asp-controller="Car" asp-action="Detail" asp-route-id="@car.Id">
+                                        <img src="~/assets/image/@car.CarImages.FirstOrDefault(m => m.IsMain).Name" alt="">
+                                    </a>
+                                </div>
+                                <p>@car.Brand.Name @car.Brand.Models.FirstOrDefault().Name</p>
+                                <p><i class="fa-solid fa-manat-sign"></i> @car.Price.ToString("N2")<span>/Daily</span></p>
+                                <div class="border"></div>
+                                <div class="icone_text">
+                                    @if (car.GearBox.Name == "Automatic")
+                                    {
+                                        <p>A</p>
+                                        <p>Automatic</p>
+                                    }
+                                    else if (car.GearBox.Name == "Mechanic")
+                                    {
+                                        <p>M</p>
+                                        <p>Mechanic</p>
+                                    }
+                                    <img src="~/assets/image/dizel.svg" alt="">
+                                    <p>@car.FuelType.Name</p>
+                                </div>
+                                <div class="bron_btn">
+                                    <button type="submit" class="btn_bron" id="open_pop_up">Reservation</button>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+
+                    ...
+                </div>
+@*                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        
+        </div>
+    </div>*@
+</section>
+
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+@*    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
+
+        const swiper = new Swiper(...)
+    </script>*@
+    <script src="~/assets/js/getAll.js"></script>
+}

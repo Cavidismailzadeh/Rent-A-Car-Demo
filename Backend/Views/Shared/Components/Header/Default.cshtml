@@ -1,0 +1,101 @@
+﻿<div class="container" id="Main_page">
+    <div class="overlay">
+        <i class="fa-solid fa-xmark"></i>
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-controller="Car" asp-action="Index">Cars</a>
+        <a asp-controller="About" asp-action="Index">About Us</a>
+        <a asp-controller="Contact" asp-action="Index">Contact</a>
+        <a asp-controller="Car" asp-action="AddCar" class="elan__">Add Car</a>
+        <div class="accoror">
+            <div class="accordo over">
+                <button class="accordion activatos_sign ">
+                    Sign In
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                         aria-hidden="true" class="arrowup">
+                        <path fill-rule="evenodd"
+                              d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z"
+                              clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="panel">
+                    <p><a asp-controller="Account" asp-action="Register">Register</a></p>
+                    <p><a asp-controller="Account" asp-action="Login">Login</a></p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="header">
+        <div class="logo">
+            <a asp-controller="Home" asp-action="Index">
+                <img src="~/assets/image/Logo2.jpg" alt="">
+            </a>
+        </div>
+        <nav>
+            <div class="nav">
+                <div class="esasSehive hover_effect_e">
+                    <a asp-controller="Home" asp-action="Index" class="esasSehife">Home</a>
+                </div>
+                <div class="yahta hover_effect_y">
+                    <a asp-controller="Car" asp-action="Index" class="WeddinCar">Cars</a>
+                </div>
+                <div class="mini_van_ hover_effect_m ">
+                    <a asp-controller="About" asp-action="Index" class="miniVan ">About Us</a>
+                </div>
+                <div class="elaqes hover_effect_el ">
+                    <a asp-controller="Contact" asp-action="Index" class="elaqesss">Contact</a>
+                </div>
+
+            </div>
+        </nav>
+        <div class="profilim_elanVer" id="Main Page">
+
+
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <div class="dropdown ">
+                    <div class="accordo">
+                        <button class="accordion activatos_sign">
+                            Sign In
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                 aria-hidden="true" class="arrowup">
+                                <path fill-rule="evenodd"
+                                      d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z"
+                                      clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                        <div class="panel">
+                            <p><a asp-controller="Account" asp-action="Register">Register</a></p>
+                            <p><a asp-controller="Account" asp-action="Login">Login</a></p>
+                        </div>
+                    </div>
+
+
+                </div>
+            }
+            else
+            {
+
+                <p>
+                    <span>
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                   trigger="hover"
+                                   colors="primary:#121331,secondary:#08a88a"
+                                   style="width:40px;height:40px;padding-top:10px">
+                        </lord-icon> @User.Identity.Name
+                    </span><a asp-controller="Account" asp-action="Logout">Logout</a>
+                </p>
+            }
+            <a asp-controller="Car" asp-action="AddCar" class="elan_">Add Car</a>
+            <i class="fa-solid fa-bars"></i>
+
+
+        </div>
+
+    </div>
+</div>

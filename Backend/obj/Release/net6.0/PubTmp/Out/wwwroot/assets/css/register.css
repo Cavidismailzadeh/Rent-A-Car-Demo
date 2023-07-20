@@ -1,0 +1,119 @@
+
+
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left{
+    margin-top: 120px;
+}
+
+.left{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 100px;
+
+}
+
+.left h2{
+    display: flex;
+    align-items: flex-start;
+    font-size: 28px;
+    text-align: start;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.left input{
+    display: flex;
+    width: 400px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+
+
+.left button{
+    width: 400px;
+    height: 45px;
+    border: none;
+    background-color:#0003a3;
+    border-radius: 6px;
+    color: white;
+    cursor:pointer;
+}
+
+.right{
+    background: url( ../img/unsplashmasn.png ) ;
+    height: 100vh;
+    filter: brightness(0.5);
+}
+
+.right img{
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.right h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: -400px;
+}
+.right p{
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(255, 0, 0);
+    }
+
+@media(max-width:1200px){
+    .right{
+        display: none;
+    }
+    .left{
+        padding: 0;
+    }
+
+    #left{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+@media(max-width:420px){
+    .left input{
+        width:350px;
+    }
+    .left button{
+        width:350px;
+    }
+}
+@media(max-width:351px){
+    .left input{
+        width:300px;
+    }
+    .left button{
+        width:300px;
+    }
+}
+
